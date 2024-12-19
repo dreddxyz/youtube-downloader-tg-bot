@@ -54,7 +54,7 @@ def extract_arg(arg):
     return arg.split()[1:]
 
 
-bot = telebot.TeleBot('5132538151:AAG8a-WQWAN65R906YLZ8tloc4ar_-S8UNE')
+bot = telebot.TeleBot('lmao')
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
 	bot.reply_to(message, "/video [url] - скачать видео \n/song [url] - скачать аудио")
